@@ -1,0 +1,77 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: red;
+}
+
+.opc {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #c4160c;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 18px;
+    color: #303134;
+    width: 630px;
+    margin-bottom: 25px;
+}
+
+
+.pagina {
+    display: flex;
+    width: 1250px;
+    margin-top: 25px;
+    background-color: aqua;
+}
+
+.esquerdo {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    background-color: purple;
+
+}
+
+.ass_1, .ass_2 {
+    display: flex;
+
+}
+
+.img_not {
+    width: 193px;
+    height: 110px;
+}
